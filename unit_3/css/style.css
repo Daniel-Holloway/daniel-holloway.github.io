@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #F3F4EC;
+	font-family: Tahoma, Helvetica, Sans-Serif;
+
+}
+
+header {
+	background-color: #507642;
+	
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.navmenu {
+	color: #CCCFBC;
+	font-weight: 600;
+	font-size: 150%;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: right;
+
+}
+
+#herobar {
+	
+}
+
+#programbar {
+	background-color: #86942A;
+}
+
+
+h1 {
+	color: #507642;
+	font-weight: 900;
+	font-size: 450%;
+	text-align: center;
+
+}
+
+h2 {
+	color: #507642;
+	font-weight: 600;
+	font-size: 150%;
+
+}
+
+h3 {
+	color: #CCCFBC;
+	font-weight: 500;
+	font-size: 115%;
+
+}
+
+p {
+	color: #CCCFBC;
+	font-weight: 400;
+
+}
+
