@@ -10,8 +10,10 @@ body {
 }
 
 header {
-	background-color: #507642;
-	
+	background-color: #A37B45;
+	background-size: 100%
+	margin: 20px;
+
 }
 
 a {
@@ -23,46 +25,80 @@ a {
 	color: #CCCFBC;
 	font-weight: 600;
 	font-size: 150%;
-	padding-left: 10px;
-	padding-right: 10px;
-	text-align: right;
+	padding: 10px;
+	float: right;
 
 }
 
 #herobar {
-	
+	background-image: url(../images/backcountry_uni_hero_2.png);
+	background-size: cover;
+	padding: 150px;
+
+#mainbox {
+	border-style: solid;
+	border-color: #A37B45
+}
+
 }
 
 #programbar {
-	background-color: #86942A;
+	background-color: #507642;
+}
+
+#reviews {
+	background-image: url(../images/backcountry_reviews.png);
+	background-size: cover;
+	padding: 20px;
 }
 
 
 h1 {
-	color: #507642;
+	color: #A37B45;
 	font-weight: 900;
 	font-size: 450%;
 	text-align: center;
+	padding: 20px;
 
 }
 
 h2 {
-	color: #507642;
+	color: #A37B45;
 	font-weight: 600;
 	font-size: 150%;
-
+	text-align: center;
+	padding: 20px;
 }
 
 h3 {
 	color: #CCCFBC;
 	font-weight: 500;
 	font-size: 115%;
+	text-align: center;
 
 }
 
 p {
 	color: #CCCFBC;
 	font-weight: 400;
+	text-align: center;
 
 }
 
+div {
+	column-count: 3;
+}
+
+footer {	
+	background-color: #A37B45;
+	background-size: 100%
+}
+
+.email {
+	color: #CCCFBC;
+	font-weight: 400;
+	font-size: 150%;
+	padding: 10px;
+	text-align: center;
+
+}
