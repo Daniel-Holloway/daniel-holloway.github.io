@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Droid+Serif');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: 'Cabin', sans-serif;
+}
+
+header {
+	font-family: 'Cabin', sans-serif;
+}
+
+header img {
+	float:left;
+}
+
+nav {
+	float:right;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: #3C7DC4;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 900;
+	font-size: 450%;
+	text-align: center;
+	padding: 20px;
+}
+
+h2 {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 600;
+	font-size: 200%;
+	text-align: center;
+	padding: 10px;
+}
+
+h3 {
+	color: #FFFFFF;
+	font-family: 'Droid Serif', serif;
+	font-weight: 500;
+	font-size: 140%;
+	text-align: center;
+}
+
+p {
+	color: #2B2B2B;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+footer {	
+	background-color: #2B2B2B;
+	background-size: 100%
+}
+
+.navmenu {
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 150%;
+	padding: 10px;
+	display: inline-block;
+}
+
+.boxclick {
+	color: #FFFFFF;
+	padding: 20px 20px;
+	text-align: center;
+	border: 3px #FFFFFF solid;
+	font-weight: 500;
+	font-size: 150%;
+}
+
+.readme {
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 150%;
+	padding: 10px;
+}
+
+.email {
+	color: #FFFFFF;
+	font-family: 'Droid Serif', serif;
+	font-weight: 200;
+	font-size: 100%;
+	text-align: center;
+}
+
+#herobar {
+	background-image: url(../images/backcountry_uni_hero_2.png);
+	background-size: cover;
+	padding: 150px;
+}
+
+#quotebar {
+	background-color: #2B2B2B;
+	padding: 50px 0;
+	width: 100%;
+}
+
+#programbar {
+	background-color: #5A8F29;
+	padding: 5em 0;
+}
+
+#programbar section {
+    width: 33.33%;
+    float: left;
+    padding: 1em;
+}
+
+#programbar img {
+    width:100%;
+}
+
+#reviews {
+	background-image: url(../images/backcountry_reviews.png);
+	background-size: cover;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 15px;
+	margin:auto;
+	overflow:hidden;
+}
