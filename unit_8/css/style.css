@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Droid+Serif');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: 'Cabin', sans-serif;
+}
+
+header {
+	font-family: 'Cabin', sans-serif;
+}
+
+header img {
+	float:left;
+}
+
+nav {
+	float:right;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3C7DC4;
+}
+
+a.learnmore:hover {
+	color: #2B2B2B;
+}
+
+h1 {
+	color: #3C7DC4;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 900;
+	font-size: 700%;
+	text-align: center;
+	padding: 2%;
+}
+
+h2 {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 600;
+	font-size: 400%;
+	text-align: center;
+	margin: 2% 2%;
+	padding: 5%;
+}
+
+h3 {
+	color: #FFFFFF;
+	font-family: 'Droid Serif', serif;
+	font-weight: 500;
+	font-size: 300%;
+	text-align: center;
+	padding: 7% 3% 1% 3%;
+	margin: 4% 3%;
+}
+
+p {
+	color: #2B2B2B;
+	font-family: 'Droid Serif', serif;
+	font-weight: 500;
+	font-size: 100%;
+	text-align: center;
+	padding: 1% 3% 3% 3%;
+	margin: 1em;
+}
+
+div {
+	text-align: center;
+}
+
+footer {	
+	background-color: #2B2B2B;   
+}
+
+footer section {
+	width: 49%;
+    float: left;
+    padding: 1%;
+}
+
+.navmenu {
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 150%;
+	padding: 10px;
+	display: inline-block;
+}
+
+.boxclick {
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 150%;
+	text-align: center;
+	padding: 4% 4%;
+	border: 3px #FFFFFF solid;
+	margin: auto;
+	display: block;
+	width: 248px;
+}
+
+.readme {
+	color: #FFFFFF;
+	font-weight: 200;
+	font-size: 200%;
+	padding: 1px 10px;
+	margin: 20px;
+}
+
+.days {
+	font-weight: bold; 
+	font-size: 200%;
+	padding: 5px 1px;
+	margin: 10px 5px;
+}
+
+.programpara {
+	color: #2B2B2B;
+	font-family: 'Droid Serif', serif;
+	font-weight: 500;
+	font-size: 200%;
+	text-align: center;
+	padding: 3% 1%;
+	margin: 5% 3%;
+}
+
+.learnmore {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 125%;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 4% 4%;
+	border: 3px #FFFFFF solid;
+	margin: 3% auto;
+	display: block;
+	width: 75%;
+}
+
+.email {
+	color: #FFFFFF;
+	font-family: 'Droid Serif', serif;
+	font-weight: 200;
+	font-size: 110%;
+	text-align: center;
+	margin: auto auto;
+	display: block;
+}
+
+.footcolumns {
+	width: 100%;
+	padding: 3%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.footheads {
+	color: #FFFFFF;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	font-size: 160%;
+	text-align: center;
+	margin: auto auto;
+	display: block;
+}
+
+#heroimage {
+	image-width: 100%;
+}
+
+#herobar {
+	background-image: url(../images/backcountry_uni_hero_2.png);
+	background-size: cover;
+	padding: 150px;
+}
+
+#quotebar {
+	background-color: #2B2B2B;
+	padding: 7em 0;
+	margin: auto;
+	width: 100%;
+}
+
+#programbar {
+	background-color: #3C7DC4;
+	padding: 5% 0;
+	width: 100%;
+}
+
+#programbar section {
+    width: 33.33%;
+    float: left;
+    padding: 0;
+}
+
+#programbar img {
+    width:100%;
+}
+
+#wrapper {
+	width: 100%;
+	padding: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+#prospace {
+	padding: 0 0 5% 0;
+}
+
+#reviews {
+	background-image: url(../images/backcountry_reviews.png);
+	background-size: cover;
+	padding: 150px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 480px){
+.programbar {
+	float: none;
+	width: auto;
+}
+
+@media only screen and (max-width: 480px){
+.wrapper {
+	float: none;
+	width: auto;
+}
