@@ -250,13 +250,18 @@ footer section {
 	padding: 0.25em;
 }
 
+.readme {
+	padding: 0.15em;
+	margin: 0.15em;
+}
+
 #programbar section {
 	float: none;
 	width: auto;
 }
 
-.wrapper {
+#wrapper {
 	float: none;
 	width: auto;
 }
-
+}
