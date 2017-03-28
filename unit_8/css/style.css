@@ -118,8 +118,8 @@ footer section {
 .days {
 	font-weight: bold; 
 	font-size: 200%;
-	padding: 5px 1px;
-	margin: 10px 5px;
+	padding: 0.5em;
+	margin: 0.5em;
 }
 
 .programpara {
@@ -128,8 +128,8 @@ footer section {
 	font-weight: 500;
 	font-size: 200%;
 	text-align: center;
-	padding: 3% 1%;
-	margin: 5% 3%;
+	padding: 1em;
+	margin: 1em;
 }
 
 .learnmore {
@@ -223,13 +223,13 @@ footer section {
 	text-align: center;
 }
 
-@media only screen and (max-width: 480px){
-.programbar {
+@media only screen and (max-width: 400px){
+#programbar section {
 	float: none;
 	width: auto;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 400px){
 .wrapper {
 	float: none;
 	width: auto;
