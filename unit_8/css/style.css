@@ -91,7 +91,7 @@ footer section {
 	color: #FFFFFF;
 	font-weight: 600;
 	font-size: 150%;
-	padding: 10px;
+	padding: 0.25em;
 	display: inline-block;
 }
 
@@ -104,15 +104,15 @@ footer section {
 	border: 3px #FFFFFF solid;
 	margin: auto;
 	display: block;
-	width: 248px;
+	width: 240px;
 }
 
 .readme {
 	color: #FFFFFF;
 	font-weight: 200;
 	font-size: 200%;
-	padding: 1px 10px;
-	margin: 20px;
+	padding: 0.25em 0.25em;
+	margin: 0.25em;
 }
 
 .days {
@@ -179,7 +179,7 @@ footer section {
 #herobar {
 	background-image: url(../images/backcountry_uni_hero_2.png);
 	background-size: cover;
-	padding: 150px;
+	padding: 7em 1em;
 }
 
 #quotebar {
@@ -219,18 +219,44 @@ footer section {
 #reviews {
 	background-image: url(../images/backcountry_reviews.png);
 	background-size: cover;
-	padding: 150px;
+	padding: 5em;
 	text-align: center;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 768px){
+h1 {
+	font-weight: 700;
+	font-size: 350%;
+	text-align: center;
+	padding: 2%;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 250%;
+	text-align: center;
+	margin: 1%;
+	padding: 1%;
+}
+
+footer section {
+	float: none;
+	width: auto;
+}
+
+.navmenu {
+	font-weight: 400;
+	font-size: 100%;
+	padding: 0.25em;
+}
+
 #programbar section {
 	float: none;
 	width: auto;
 }
 
-@media only screen and (max-width: 400px){
 .wrapper {
 	float: none;
 	width: auto;
 }
+
